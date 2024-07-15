@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_browse_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:deviceIds="tv"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    tools:ignore="MergeRootFrame">
+    <Button
+        android:id="@+id/download_audio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Download Audio" />
+
+    <Button
+        android:id="@+id/download_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50sp"
+        android:text="Download Video" />
+
+    <TextView
+        android:id="@+id/audio_file_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="no audio file"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"
+        />
+
+    <TextView
+        android:id="@+id/video_file_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="no video file"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50sp"
+        android:padding="16dp"
+        />
+</FrameLayout>
